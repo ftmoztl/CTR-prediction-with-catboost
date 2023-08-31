@@ -1,0 +1,40 @@
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Configure stats pid to 7774
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/.config/wandb/settings
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/settings
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'ctr-prediction', 'entity': 'ftmoztl', 'root_dir': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'sweep_id': '89jekaba', 'run_id': 'vy1bs0tw', 'sweep_param_path': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/sweep-89jekaba/config-vy1bs0tw.yaml'}
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_init.py:_log_setup():524] Logging user logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230831_225803-vy1bs0tw/logs/debug.log
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230831_225803-vy1bs0tw/logs/debug-internal.log
+2023-08-31 22:58:03,288 INFO    Thread-5 (_run_job):7774 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1662c1350>
+2023-08-31 22:58:03,289 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():564] calling init triggers
+2023-08-31 22:58:03,289 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():571] wandb.init called with sweep_config: {'depth': 10, 'iterations': 181, 'learning_rate': 0.09146945303290696}
+config: {'_name': 'wandb.config', '__doc__': 'Config object.\n\n    Config objects are intended to hold all of the hyperparameters associated with\n    a wandb run and are saved with the run object when `wandb.init` is called.\n\n    We recommend setting `wandb.config` once at the top of your training experiment or\n    setting the config as a parameter to init, ie. `wandb.init(config=my_config_dict)`\n\n    You can create a file called `config-defaults.yaml`, and it will automatically be\n    loaded into `wandb.config`. See https://docs.wandb.com/guides/track/config#file-based-configs.\n\n    You can also load a config YAML file with your custom name and pass the filename\n    into `wandb.init(config="special_config.yaml")`.\n    See https://docs.wandb.com/guides/track/config#file-based-configs.\n\n    Examples:\n        Basic usage\n        ```\n        wandb.config.epochs = 4\n        wandb.init()\n        for x in range(wandb.config.epochs):\n            # train\n        ```\n\n        Using wandb.init to set config\n        ```\n        wandb.init(config={"epochs": 4, "batch_size": 32})\n        for x in range(wandb.config.epochs):\n            # train\n        ```\n\n        Nested configs\n        ```\n        wandb.config[\'train\'][\'epochs\'] = 4\n        wandb.init()\n        for x in range(wandb.config[\'train\'][\'epochs\']):\n            # train\n        ```\n\n        Using absl flags\n        ```\n        flags.DEFINE_string(‘model’, None, ‘model to run’) # name, default, help\n        wandb.config.update(flags.FLAGS) # adds all absl flags to config\n        ```\n\n        Argparse flags\n        ```python\n        wandb.init()\n        wandb.config.epochs = 4\n\n        parser = argparse.ArgumentParser()\n        parser.add_argument(\n            "-b",\n            "--batch-size",\n            type=int,\n            default=8,\n            metavar="N",\n            help="input batch size for training (default: 8)",\n        )\n        args = parser.parse_args()\n        wandb.config.update(args)\n        ```\n\n        Using TensorFlow flags (deprecated in tensorflow v2)\n        ```python\n        flags = tf.app.flags\n        flags.DEFINE_string("data_dir", "/tmp/data")\n        flags.DEFINE_integer("batch_size", 128, "Batch size.")\n        wandb.config.update(flags.FLAGS)  # adds all of the tensorflow flags to config\n        ```\n    '}
+2023-08-31 22:58:03,289 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():613] starting backend
+2023-08-31 22:58:03,289 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():617] setting up manager
+2023-08-31 22:58:03,291 INFO    Thread-5 (_run_job):7774 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-08-31 22:58:03,292 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():623] backend started and connected
+2023-08-31 22:58:03,296 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_config_callback():1282] config_cb None None {'depth': 10, 'iterations': 181, 'learning_rate': 0.09146945303290696}
+2023-08-31 22:58:03,297 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-31 22:58:03,297 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-31 22:58:03,297 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():714] updated telemetry
+2023-08-31 22:58:03,311 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-08-31 22:58:03,906 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-31 22:58:04,241 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_on_init():2189] got version response 
+2023-08-31 22:58:04,241 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():798] starting run threads in backend
+2023-08-31 22:58:04,287 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-31 22:58:04,287 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-31 22:58:04,288 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-31 22:58:04,288 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-31 22:58:04,288 INFO    Thread-5 (_run_job):7774 [wandb_init.py:init():839] run started, returning control to user process
+2023-08-31 22:58:06,073 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_finish():1894] finishing run ftmoztl/ctr-prediction/vy1bs0tw
+2023-08-31 22:58:06,073 ERROR   Thread-5 (_run_job):7774 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-08-31 22:58:06,073 INFO    Thread-5 (_run_job):7774 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-31 22:58:06,073 INFO    Thread-5 (_run_job):7774 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-08-31 22:58:06,073 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-08-31 22:58:06,073 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_restore():2111] restore
+2023-08-31 22:58:06,073 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_restore():2117] restore done
+2023-08-31 22:58:10,442 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-31 22:58:10,442 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-31 22:58:10,444 INFO    Thread-5 (_run_job):7774 [wandb_run.py:_footer_sync_info():3440] logging synced files

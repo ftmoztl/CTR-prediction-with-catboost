@@ -1,0 +1,40 @@
+2023-08-31 23:04:05,482 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Configure stats pid to 7774
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/.config/wandb/settings
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/settings
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'ctr-prediction', 'entity': 'ftmoztl', 'root_dir': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'run_id': 'wyajdkix', 'sweep_param_path': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/sweep-89jekaba/config-wyajdkix.yaml', 'sweep_id': '89jekaba'}
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_init.py:_log_setup():524] Logging user logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230831_230405-wyajdkix/logs/debug.log
+2023-08-31 23:04:05,483 INFO    Thread-75 (_run_job):7774 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230831_230405-wyajdkix/logs/debug-internal.log
+2023-08-31 23:04:05,484 INFO    Thread-75 (_run_job):7774 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x166f99110>
+2023-08-31 23:04:05,484 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():564] calling init triggers
+2023-08-31 23:04:05,484 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():571] wandb.init called with sweep_config: {'depth': 6, 'iterations': 119, 'learning_rate': 0.1987175040939398}
+config: {'_name': 'wandb.config'}
+2023-08-31 23:04:05,484 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():613] starting backend
+2023-08-31 23:04:05,485 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():617] setting up manager
+2023-08-31 23:04:05,493 INFO    Thread-75 (_run_job):7774 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-08-31 23:04:05,493 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():623] backend started and connected
+2023-08-31 23:04:05,502 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_config_callback():1282] config_cb None None {'depth': 6, 'iterations': 119, 'learning_rate': 0.1987175040939398}
+2023-08-31 23:04:05,504 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-31 23:04:05,504 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-31 23:04:05,504 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():714] updated telemetry
+2023-08-31 23:04:05,514 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-08-31 23:04:06,742 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-31 23:04:07,110 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_on_init():2189] got version response 
+2023-08-31 23:04:07,110 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():798] starting run threads in backend
+2023-08-31 23:04:07,161 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-31 23:04:07,161 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-31 23:04:07,161 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-31 23:04:07,161 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-31 23:04:07,162 INFO    Thread-75 (_run_job):7774 [wandb_init.py:init():839] run started, returning control to user process
+2023-08-31 23:04:07,977 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_finish():1894] finishing run ftmoztl/ctr-prediction/wyajdkix
+2023-08-31 23:04:07,978 ERROR   Thread-75 (_run_job):7774 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-08-31 23:04:07,978 INFO    Thread-75 (_run_job):7774 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-31 23:04:07,978 INFO    Thread-75 (_run_job):7774 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-08-31 23:04:07,978 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-08-31 23:04:07,978 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_restore():2111] restore
+2023-08-31 23:04:07,978 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_restore():2117] restore done
+2023-08-31 23:04:11,108 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-31 23:04:11,108 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-31 23:04:11,114 INFO    Thread-75 (_run_job):7774 [wandb_run.py:_footer_sync_info():3440] logging synced files

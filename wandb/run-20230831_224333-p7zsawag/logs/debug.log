@@ -1,0 +1,61 @@
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Configure stats pid to 6636
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/.config/wandb/settings
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/settings
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_init.py:_log_setup():524] Logging user logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230831_224333-p7zsawag/logs/debug.log
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230831_224333-p7zsawag/logs/debug-internal.log
+2023-08-31 22:43:33,522 INFO    MainThread:6636 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x162a9b250>
+2023-08-31 22:43:33,523 INFO    MainThread:6636 [wandb_init.py:init():564] calling init triggers
+2023-08-31 22:43:33,523 INFO    MainThread:6636 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-08-31 22:43:33,523 INFO    MainThread:6636 [wandb_init.py:init():613] starting backend
+2023-08-31 22:43:33,523 INFO    MainThread:6636 [wandb_init.py:init():617] setting up manager
+2023-08-31 22:43:33,525 INFO    MainThread:6636 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-08-31 22:43:33,526 INFO    MainThread:6636 [wandb_init.py:init():623] backend started and connected
+2023-08-31 22:43:33,531 INFO    MainThread:6636 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-08-31 22:43:33,531 INFO    MainThread:6636 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-08-31 22:43:33,531 INFO    MainThread:6636 [wandb_init.py:init():714] updated telemetry
+2023-08-31 22:43:33,553 INFO    MainThread:6636 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-08-31 22:43:34,978 INFO    MainThread:6636 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-31 22:43:35,351 INFO    MainThread:6636 [wandb_run.py:_on_init():2189] got version response 
+2023-08-31 22:43:35,351 INFO    MainThread:6636 [wandb_init.py:init():798] starting run threads in backend
+2023-08-31 22:43:35,407 INFO    MainThread:6636 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-31 22:43:35,407 INFO    MainThread:6636 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-31 22:43:35,407 INFO    MainThread:6636 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-31 22:43:35,407 INFO    MainThread:6636 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-31 22:43:35,407 INFO    MainThread:6636 [wandb_init.py:init():839] run started, returning control to user process
+2023-08-31 22:43:35,962 INFO    MainThread:6636 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-08-31 22:43:43,238 WARNING MsgRouterThr:6636 [router.py:message_loop():77] message_loop has been closed
+2023-08-31 22:43:43,916 ERROR   Thread-7 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:43:47,590 ERROR   Thread-8 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:43:53,034 ERROR   Thread-9 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:43:58,549 ERROR   Thread-10 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:09,433 ERROR   Thread-11 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:14,431 ERROR   Thread-12 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:20,061 ERROR   Thread-13 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:30,703 ERROR   Thread-14 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:33,765 ERROR   Thread-15 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:39,619 ERROR   Thread-16 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:45,077 ERROR   Thread-17 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:50,627 ERROR   Thread-18 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:44:56,057 ERROR   Thread-19 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:06,960 ERROR   Thread-20 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:17,638 ERROR   Thread-21 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:19,649 ERROR   Thread-22 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:25,123 ERROR   Thread-23 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:30,630 ERROR   Thread-24 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:36,128 ERROR   Thread-25 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:46,779 ERROR   Thread-26 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:48,473 ERROR   Thread-27 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:45:59,118 ERROR   Thread-28 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:09,775 ERROR   Thread-29 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:20,624 ERROR   Thread-30 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:31,279 ERROR   Thread-31 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:36,611 ERROR   Thread-32 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:42,418 ERROR   Thread-33 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:53,098 ERROR   Thread-34 (_run_job):6636 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-08-31 22:46:56,274 INFO    MainThread:6636 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-31 22:49:01,902 INFO    MainThread:6636 [jupyter.py:save_ipynb():373] not saving jupyter notebook

@@ -1,0 +1,4 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: vlare4ow
+Sweep URL: https://wandb.ai/ftmoztl/uncategorized/sweeps/vlare4ow

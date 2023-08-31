@@ -1,0 +1,8 @@
+wandb_version: 1
+
+depth:
+  value: 10
+iterations:
+  value: 189
+learning_rate:
+  value: 0.015052575821596886
