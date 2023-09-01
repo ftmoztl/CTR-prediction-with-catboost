@@ -1,0 +1,40 @@
+2023-09-01 13:55:54,648 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Configure stats pid to 21991
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/.config/wandb/settings
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/settings
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'ctr-prediction', 'entity': 'ftmoztl', 'root_dir': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'run_id': 'epsi90qd', 'sweep_param_path': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/sweep-itizfcqu/config-epsi90qd.yaml', 'sweep_id': 'itizfcqu'}
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:_log_setup():524] Logging user logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_135554-epsi90qd/logs/debug.log
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_135554-epsi90qd/logs/debug-internal.log
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x15ae45c10>
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():564] calling init triggers
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():571] wandb.init called with sweep_config: {'depth': 9, 'iterations': 297, 'learning_rate': 0.17747261333241598}
+config: {'_name': 'wandb.config'}
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():613] starting backend
+2023-09-01 13:55:54,649 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():617] setting up manager
+2023-09-01 13:55:54,653 INFO    Thread-282 (_run_job):21991 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-09-01 13:55:54,653 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():623] backend started and connected
+2023-09-01 13:55:54,661 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_config_callback():1282] config_cb None None {'depth': 9, 'iterations': 297, 'learning_rate': 0.17747261333241598}
+2023-09-01 13:55:54,663 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-01 13:55:54,663 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-01 13:55:54,663 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():714] updated telemetry
+2023-09-01 13:55:54,675 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-01 13:55:55,260 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_on_init():2180] communicating current version
+2023-09-01 13:55:55,572 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_on_init():2189] got version response 
+2023-09-01 13:55:55,572 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():798] starting run threads in backend
+2023-09-01 13:55:55,615 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_console_start():2159] atexit reg
+2023-09-01 13:55:55,615 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-09-01 13:55:55,615 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-09-01 13:55:55,616 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-09-01 13:55:55,616 INFO    Thread-282 (_run_job):21991 [wandb_init.py:init():839] run started, returning control to user process
+2023-09-01 13:55:56,815 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_finish():1894] finishing run ftmoztl/ctr-prediction/epsi90qd
+2023-09-01 13:55:56,815 ERROR   Thread-282 (_run_job):21991 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-09-01 13:55:56,815 INFO    Thread-282 (_run_job):21991 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-01 13:55:56,815 INFO    Thread-282 (_run_job):21991 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-09-01 13:55:56,815 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-01 13:55:56,815 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_restore():2111] restore
+2023-09-01 13:55:56,815 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_restore():2117] restore done
+2023-09-01 13:55:59,782 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-01 13:55:59,782 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-01 13:55:59,787 INFO    Thread-282 (_run_job):21991 [wandb_run.py:_footer_sync_info():3440] logging synced files
