@@ -1,0 +1,179 @@
+2023-09-01 21:07:55,339 INFO    StreamThr :47463 [internal.py:wandb_internal():86] W&B internal server running at pid: 47463, started at: 2023-09-01 21:07:55.338859
+2023-09-01 21:07:55,341 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: status
+2023-09-01 21:07:55,352 INFO    WriterThread:47463 [datastore.py:open_for_write():85] open: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/run-q8g4bq2q.wandb
+2023-09-01 21:07:55,352 DEBUG   SenderThread:47463 [sender.py:send():379] send: header
+2023-09-01 21:07:55,369 DEBUG   SenderThread:47463 [sender.py:send():379] send: run
+2023-09-01 21:07:55,891 INFO    SenderThread:47463 [dir_watcher.py:__init__():211] watching files in: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files
+2023-09-01 21:07:55,891 INFO    SenderThread:47463 [sender.py:_start_run_threads():1121] run started: q8g4bq2q with start time 1693591675.337956
+2023-09-01 21:07:55,894 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:07:55,895 INFO    SenderThread:47463 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:07:55,908 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: check_version
+2023-09-01 21:07:55,908 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: check_version
+2023-09-01 21:07:56,277 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: run_start
+2023-09-01 21:07:56,291 DEBUG   HandlerThread:47463 [system_info.py:__init__():31] System info init
+2023-09-01 21:07:56,291 DEBUG   HandlerThread:47463 [system_info.py:__init__():46] System info init done
+2023-09-01 21:07:56,291 INFO    HandlerThread:47463 [system_monitor.py:start():181] Starting system monitor
+2023-09-01 21:07:56,291 INFO    SystemMonitor:47463 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-01 21:07:56,291 INFO    HandlerThread:47463 [system_monitor.py:probe():201] Collecting system info
+2023-09-01 21:07:56,292 INFO    SystemMonitor:47463 [interfaces.py:start():190] Started cpu monitoring
+2023-09-01 21:07:56,293 INFO    SystemMonitor:47463 [interfaces.py:start():190] Started disk monitoring
+2023-09-01 21:07:56,295 INFO    SystemMonitor:47463 [interfaces.py:start():190] Started gpuapple monitoring
+2023-09-01 21:07:56,297 DEBUG   HandlerThread:47463 [system_info.py:probe():195] Probing system
+2023-09-01 21:07:56,297 INFO    SystemMonitor:47463 [interfaces.py:start():190] Started memory monitoring
+2023-09-01 21:07:56,298 INFO    SystemMonitor:47463 [interfaces.py:start():190] Started network monitoring
+2023-09-01 21:07:56,304 DEBUG   HandlerThread:47463 [system_info.py:_probe_git():180] Probing git
+2023-09-01 21:07:56,320 DEBUG   HandlerThread:47463 [system_info.py:_probe_git():188] Probing git done
+2023-09-01 21:07:56,320 DEBUG   HandlerThread:47463 [system_info.py:probe():240] Probing system done
+2023-09-01 21:07:56,320 DEBUG   HandlerThread:47463 [system_monitor.py:probe():210] {'os': 'macOS-13.4.1-arm64-arm-64bit', 'python': '3.11.2', 'heartbeatAt': '2023-09-01T18:07:56.297607', 'startedAt': '2023-09-01T18:07:55.317948', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ftmoztl/CTR-prediction.git', 'commit': 'cf46e57be92491b67deb7c893cee94f6091973c6'}, 'email': 'fatmaozteel@gmail.com', 'root': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'host': 'Fatma-MacBook-Air.local', 'username': 'fatmaoztel', 'executable': '/opt/homebrew/opt/python@3.11/bin/python3.11', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 460.4317207336426, 'used': 11.014774322509766}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-09-01 21:07:56,320 INFO    HandlerThread:47463 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-01 21:07:56,320 INFO    HandlerThread:47463 [system_monitor.py:probe():214] Publishing system info
+2023-09-01 21:07:56,320 DEBUG   HandlerThread:47463 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-01 21:07:56,321 DEBUG   HandlerThread:47463 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-01 21:07:56,321 INFO    HandlerThread:47463 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-01 21:07:56,326 DEBUG   SenderThread:47463 [sender.py:send():379] send: files
+2023-09-01 21:07:56,326 INFO    SenderThread:47463 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-01 21:07:56,334 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 21:07:56,334 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 21:07:56,679 DEBUG   SenderThread:47463 [sender.py:send():379] send: telemetry
+2023-09-01 21:07:56,901 INFO    Thread-12 :47463 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/wandb-summary.json
+2023-09-01 21:07:56,901 INFO    Thread-12 :47463 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/wandb-metadata.json
+2023-09-01 21:07:56,902 INFO    Thread-12 :47463 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/requirements.txt
+2023-09-01 21:07:57,091 INFO    wandb-upload_0:47463 [upload_job.py:push():131] Uploaded file /var/folders/j9/scnjt0d57q3_lzqgdfj4j43r0000gn/T/tmpvm88e8uiwandb/fqnlm4u7-wandb-metadata.json
+2023-09-01 21:07:57,361 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:07:57,362 DEBUG   SenderThread:47463 [sender.py:send():379] send: history
+2023-09-01 21:07:57,362 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:07:57,362 INFO    SenderThread:47463 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:07:57,368 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 21:07:57,368 DEBUG   SenderThread:47463 [sender.py:send():379] send: history
+2023-09-01 21:07:57,368 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 21:07:57,368 INFO    SenderThread:47463 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:07:57,368 DEBUG   SenderThread:47463 [sender.py:send():379] send: telemetry
+2023-09-01 21:07:57,368 DEBUG   SenderThread:47463 [sender.py:send():379] send: exit
+2023-09-01 21:07:57,368 INFO    SenderThread:47463 [sender.py:send_exit():584] handling exit code: 0
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:send_exit():586] handling runtime: 1
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:send_exit():592] send defer
+2023-09-01 21:07:57,369 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-01 21:07:57,369 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 1
+2023-09-01 21:07:57,369 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-01 21:07:57,369 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-01 21:07:57,369 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 2
+2023-09-01 21:07:57,369 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-01 21:07:57,369 DEBUG   SystemMonitor:47463 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-01 21:07:57,369 DEBUG   SystemMonitor:47463 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [interfaces.py:finish():202] Joined disk monitor
+2023-09-01 21:07:57,369 DEBUG   SystemMonitor:47463 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-01 21:07:57,369 INFO    HandlerThread:47463 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-09-01 21:07:57,370 INFO    HandlerThread:47463 [interfaces.py:finish():202] Joined memory monitor
+2023-09-01 21:07:57,370 INFO    HandlerThread:47463 [interfaces.py:finish():202] Joined network monitor
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 3
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send():379] send: telemetry
+2023-09-01 21:07:57,370 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send():379] send: stats
+2023-09-01 21:07:57,370 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 4
+2023-09-01 21:07:57,370 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,370 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 5
+2023-09-01 21:07:57,370 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,370 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send():379] send: summary
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-01 21:07:57,370 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 6
+2023-09-01 21:07:57,370 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,370 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-01 21:07:57,370 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,371 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-01 21:07:57,372 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 21:07:57,641 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 7
+2023-09-01 21:07:57,642 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,642 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-01 21:07:57,642 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,643 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-01 21:07:57,643 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 8
+2023-09-01 21:07:57,643 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,643 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-01 21:07:57,643 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,643 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-01 21:07:57,644 INFO    SenderThread:47463 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-01 21:07:57,644 INFO    SenderThread:47463 [job_builder.py:build():297] run is notebook based run
+2023-09-01 21:07:57,645 INFO    SenderThread:47463 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-09-01 21:07:57,645 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 9
+2023-09-01 21:07:57,645 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,645 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-01 21:07:57,646 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,646 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-01 21:07:57,646 INFO    SenderThread:47463 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-01 21:07:57,910 INFO    Thread-12 :47463 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/config.yaml
+2023-09-01 21:07:57,911 INFO    SenderThread:47463 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/wandb-summary.json
+2023-09-01 21:07:57,911 INFO    SenderThread:47463 [dir_watcher.py:finish():388] scan: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files
+2023-09-01 21:07:57,911 INFO    SenderThread:47463 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/requirements.txt requirements.txt
+2023-09-01 21:07:57,911 INFO    SenderThread:47463 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/config.yaml config.yaml
+2023-09-01 21:07:57,913 INFO    SenderThread:47463 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/wandb-summary.json wandb-summary.json
+2023-09-01 21:07:57,914 INFO    SenderThread:47463 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/wandb-metadata.json wandb-metadata.json
+2023-09-01 21:07:57,915 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 10
+2023-09-01 21:07:57,916 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:57,916 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-01 21:07:57,916 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:57,916 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-01 21:07:57,916 INFO    SenderThread:47463 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-01 21:07:58,378 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:07:58,378 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:07:58,390 INFO    wandb-upload_0:47463 [upload_job.py:push():131] Uploaded file /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/requirements.txt
+2023-09-01 21:07:58,507 INFO    wandb-upload_2:47463 [upload_job.py:push():131] Uploaded file /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/wandb-summary.json
+2023-09-01 21:07:58,573 INFO    wandb-upload_1:47463 [upload_job.py:push():131] Uploaded file /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/files/config.yaml
+2023-09-01 21:07:58,784 INFO    Thread-11 (_thread_body):47463 [sender.py:transition_state():612] send defer: 11
+2023-09-01 21:07:58,784 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:58,784 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-01 21:07:58,785 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:58,785 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-01 21:07:58,785 INFO    SenderThread:47463 [file_pusher.py:join():164] waiting for file pusher
+2023-09-01 21:07:58,785 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 12
+2023-09-01 21:07:58,786 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:58,786 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-01 21:07:58,786 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:58,786 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-01 21:07:58,786 INFO    SenderThread:47463 [file_stream.py:finish():593] file stream finish called
+2023-09-01 21:07:59,085 INFO    SenderThread:47463 [file_stream.py:finish():597] file stream finish is done
+2023-09-01 21:07:59,086 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 13
+2023-09-01 21:07:59,086 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:59,086 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-01 21:07:59,087 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:59,087 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-01 21:07:59,087 INFO    SenderThread:47463 [sender.py:transition_state():612] send defer: 14
+2023-09-01 21:07:59,087 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 21:07:59,088 INFO    HandlerThread:47463 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-01 21:07:59,088 DEBUG   SenderThread:47463 [sender.py:send():379] send: final
+2023-09-01 21:07:59,088 DEBUG   SenderThread:47463 [sender.py:send():379] send: footer
+2023-09-01 21:07:59,089 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: defer
+2023-09-01 21:07:59,089 INFO    SenderThread:47463 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-01 21:07:59,090 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 21:07:59,091 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: server_info
+2023-09-01 21:07:59,091 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 21:07:59,091 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-01 21:07:59,092 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: server_info
+2023-09-01 21:07:59,093 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-01 21:07:59,096 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: job_info
+2023-09-01 21:07:59,274 DEBUG   SenderThread:47463 [sender.py:send_request():406] send_request: job_info
+2023-09-01 21:07:59,276 DEBUG   HandlerThread:47463 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-01 21:07:59,276 INFO    HandlerThread:47463 [handler.py:finish():861] shutting down handler
+2023-09-01 21:08:00,106 INFO    WriterThread:47463 [datastore.py:close():294] close: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_210755-q8g4bq2q/run-q8g4bq2q.wandb
+2023-09-01 21:08:00,282 INFO    SenderThread:47463 [sender.py:finish():1552] shutting down sender
+2023-09-01 21:08:00,282 INFO    SenderThread:47463 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-01 21:08:00,282 INFO    SenderThread:47463 [file_pusher.py:join():164] waiting for file pusher

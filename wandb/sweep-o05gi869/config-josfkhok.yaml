@@ -1,0 +1,14 @@
+wandb_version: 1
+
+depth:
+  value: 4
+iterations:
+  value: 351
+learning_rate:
+  value: 0.05593147269887165
+min_data_in_leaf:
+  value: 88
+rsm:
+  value: 0.34772650063124955
+subsample:
+  value: 0.2781407708015582

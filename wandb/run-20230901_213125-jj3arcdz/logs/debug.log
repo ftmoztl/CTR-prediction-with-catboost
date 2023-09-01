@@ -1,0 +1,36 @@
+2023-09-01 21:31:25,688 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Configure stats pid to 41269
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/.config/wandb/settings
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/settings
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'ctr-prediction', 'entity': 'ftmoztl', 'root_dir': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'run_id': 'jj3arcdz', 'sweep_param_path': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/sweep-o05gi869/config-jj3arcdz.yaml', 'sweep_id': 'o05gi869'}
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-01 21:31:25,689 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:_log_setup():524] Logging user logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_213125-jj3arcdz/logs/debug.log
+2023-09-01 21:31:25,690 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_213125-jj3arcdz/logs/debug-internal.log
+2023-09-01 21:31:25,690 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():564] calling init triggers
+2023-09-01 21:31:25,690 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():571] wandb.init called with sweep_config: {'depth': 6, 'iterations': 293, 'learning_rate': 0.04413540188775261, 'min_data_in_leaf': 21, 'rsm': 0.4444550911916824, 'subsample': 0.3802704183833941}
+config: {'_name': 'wandb.config'}
+2023-09-01 21:31:25,690 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():613] starting backend
+2023-09-01 21:31:25,691 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():617] setting up manager
+2023-09-01 21:31:25,698 INFO    Thread-1101 (_run_job):41269 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-09-01 21:31:25,699 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():623] backend started and connected
+2023-09-01 21:31:25,710 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_config_callback():1282] config_cb None None {'depth': 6, 'iterations': 293, 'learning_rate': 0.04413540188775261, 'min_data_in_leaf': 21, 'rsm': 0.4444550911916824, 'subsample': 0.3802704183833941}
+2023-09-01 21:31:25,712 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-01 21:31:25,713 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-01 21:31:25,713 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():714] updated telemetry
+2023-09-01 21:31:25,728 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-01 21:31:26,286 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_on_init():2180] communicating current version
+2023-09-01 21:31:26,689 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_on_init():2189] got version response 
+2023-09-01 21:31:26,689 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():798] starting run threads in backend
+2023-09-01 21:31:26,726 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_console_start():2159] atexit reg
+2023-09-01 21:31:26,726 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-09-01 21:31:26,726 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-09-01 21:31:26,726 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-09-01 21:31:26,727 INFO    Thread-1101 (_run_job):41269 [wandb_init.py:init():839] run started, returning control to user process
+2023-09-01 21:31:27,938 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_finish():1894] finishing run ftmoztl/ctr-prediction/jj3arcdz
+2023-09-01 21:31:27,938 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-01 21:31:27,938 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_restore():2111] restore
+2023-09-01 21:31:27,938 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_restore():2117] restore done
+2023-09-01 21:31:30,667 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-01 21:31:30,668 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-01 21:31:30,678 INFO    Thread-1101 (_run_job):41269 [wandb_run.py:_footer_sync_info():3440] logging synced files

@@ -1,0 +1,54 @@
+wandb_version: 1
+
+depth:
+  desc: null
+  value: 4
+iterations:
+  desc: null
+  value: 400
+learning_rate:
+  desc: null
+  value: 0.07982245302870684
+min_data_in_leaf:
+  desc: null
+  value: 7
+rsm:
+  desc: null
+  value: 0.6823317235482755
+subsample:
+  desc: null
+  value: 0.8977198365749434
+_name:
+  desc: null
+  value: wandb.config
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.2
+    cli_version: 0.15.9
+    framework: catboost
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1693590288.792845
+    t:
+      1:
+      - 5
+      - 7
+      - 53
+      - 55
+      2:
+      - 5
+      - 7
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      - 37
+      4: 3.11.2
+      5: 0.15.9
+      8:
+      - 1
+      - 4
+      - 5

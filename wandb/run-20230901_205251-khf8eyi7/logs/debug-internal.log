@@ -1,0 +1,514 @@
+2023-09-01 20:52:51,116 INFO    StreamThr :46329 [internal.py:wandb_internal():86] W&B internal server running at pid: 46329, started at: 2023-09-01 20:52:51.116290
+2023-09-01 20:52:51,117 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status
+2023-09-01 20:52:51,126 INFO    WriterThread:46329 [datastore.py:open_for_write():85] open: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/run-khf8eyi7.wandb
+2023-09-01 20:52:51,127 DEBUG   SenderThread:46329 [sender.py:send():379] send: header
+2023-09-01 20:52:51,141 DEBUG   SenderThread:46329 [sender.py:send():379] send: run
+2023-09-01 20:52:56,168 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:01,186 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:06,211 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:11,234 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:16,256 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:21,280 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:26,303 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:26,722 INFO    SenderThread:46329 [dir_watcher.py:__init__():211] watching files in: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files
+2023-09-01 20:53:26,722 INFO    SenderThread:46329 [sender.py:_start_run_threads():1121] run started: khf8eyi7 with start time 1693590771.115791
+2023-09-01 20:53:26,722 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 20:53:26,722 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:53:26,723 INFO    SenderThread:46329 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 20:53:26,724 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: check_version
+2023-09-01 20:53:26,724 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: check_version
+2023-09-01 20:53:27,075 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: run_start
+2023-09-01 20:53:27,084 DEBUG   HandlerThread:46329 [system_info.py:__init__():31] System info init
+2023-09-01 20:53:27,085 DEBUG   HandlerThread:46329 [system_info.py:__init__():46] System info init done
+2023-09-01 20:53:27,085 INFO    HandlerThread:46329 [system_monitor.py:start():181] Starting system monitor
+2023-09-01 20:53:27,085 INFO    SystemMonitor:46329 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-01 20:53:27,085 INFO    HandlerThread:46329 [system_monitor.py:probe():201] Collecting system info
+2023-09-01 20:53:27,086 INFO    SystemMonitor:46329 [interfaces.py:start():190] Started cpu monitoring
+2023-09-01 20:53:27,086 DEBUG   HandlerThread:46329 [system_info.py:probe():195] Probing system
+2023-09-01 20:53:27,086 INFO    SystemMonitor:46329 [interfaces.py:start():190] Started disk monitoring
+2023-09-01 20:53:27,089 INFO    SystemMonitor:46329 [interfaces.py:start():190] Started gpuapple monitoring
+2023-09-01 20:53:27,091 INFO    SystemMonitor:46329 [interfaces.py:start():190] Started memory monitoring
+2023-09-01 20:53:27,091 INFO    SystemMonitor:46329 [interfaces.py:start():190] Started network monitoring
+2023-09-01 20:53:27,095 DEBUG   HandlerThread:46329 [system_info.py:_probe_git():180] Probing git
+2023-09-01 20:53:27,113 DEBUG   HandlerThread:46329 [system_info.py:_probe_git():188] Probing git done
+2023-09-01 20:53:27,113 DEBUG   HandlerThread:46329 [system_info.py:probe():240] Probing system done
+2023-09-01 20:53:27,113 DEBUG   HandlerThread:46329 [system_monitor.py:probe():210] {'os': 'macOS-13.4.1-arm64-arm-64bit', 'python': '3.11.2', 'heartbeatAt': '2023-09-01T17:53:27.086746', 'startedAt': '2023-09-01T17:52:51.103049', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ftmoztl/CTR-prediction.git', 'commit': 'cf46e57be92491b67deb7c893cee94f6091973c6'}, 'email': 'fatmaozteel@gmail.com', 'root': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'host': 'Fatma-MacBook-Air.local', 'username': 'fatmaoztel', 'executable': '/opt/homebrew/opt/python@3.11/bin/python3.11', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 460.4317207336426, 'used': 11.014774322509766}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-09-01 20:53:27,113 INFO    HandlerThread:46329 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-01 20:53:27,113 INFO    HandlerThread:46329 [system_monitor.py:probe():214] Publishing system info
+2023-09-01 20:53:27,113 DEBUG   HandlerThread:46329 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-01 20:53:27,114 DEBUG   HandlerThread:46329 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-01 20:53:27,114 INFO    HandlerThread:46329 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-01 20:53:27,121 DEBUG   SenderThread:46329 [sender.py:send():379] send: files
+2023-09-01 20:53:27,121 INFO    SenderThread:46329 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-01 20:53:27,130 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-01 20:53:27,130 DEBUG   SenderThread:46329 [sender.py:send():379] send: telemetry
+2023-09-01 20:53:27,130 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: stop_status
+2023-09-01 20:53:27,632 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 20:53:27,637 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-01 20:53:27,728 INFO    Thread-12 :46329 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/wandb-metadata.json
+2023-09-01 20:53:27,728 INFO    Thread-12 :46329 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/requirements.txt
+2023-09-01 20:53:27,728 INFO    Thread-12 :46329 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/wandb-summary.json
+2023-09-01 20:53:28,643 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 20:53:33,656 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:38,678 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:43,700 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:48,310 INFO    SenderThread:46329 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-09-01 20:53:48,722 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:53,747 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:53:58,772 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:03,793 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:08,221 WARNING FileStreamThread:46329 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/ftmoztl/ctr-prediction/khf8eyi7/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x10cc2a3d0>>, timeout=60.0), args: ('https://api.wandb.ai/files/ftmoztl/ctr-prediction/khf8eyi7/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-09-01 20:54:08,807 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:13,740 INFO    wandb-upload_0:46329 [upload_job.py:push():131] Uploaded file /var/folders/j9/scnjt0d57q3_lzqgdfj4j43r0000gn/T/tmpbzktcpddwandb/mby7ti3c-wandb-metadata.json
+2023-09-01 20:54:13,831 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:18,849 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:23,869 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:27,095 DEBUG   SystemMonitor:46329 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-01 20:54:28,887 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:33,912 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:38,931 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:43,947 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:48,961 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:53,982 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:54:59,006 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:04,026 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:09,047 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:14,058 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:19,078 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:24,101 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:29,115 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:34,133 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:39,154 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:42,247 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:55:44,176 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:49,193 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:54,215 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:55:59,233 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:04,254 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:09,276 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:14,289 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:15,970 INFO    SenderThread:46329 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-09-01 20:56:19,313 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:24,337 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:29,360 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:34,384 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:39,404 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:44,431 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:49,456 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:54,468 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:56:59,484 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:04,495 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:09,504 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:14,523 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:18,245 DEBUG   SenderThread:46329 [sender.py:send():379] send: history
+2023-09-01 20:57:18,246 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 20:57:18,247 INFO    SenderThread:46329 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 20:57:18,247 DEBUG   SenderThread:46329 [sender.py:send():379] send: history
+2023-09-01 20:57:18,248 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: summary_record
+2023-09-01 20:57:18,248 INFO    SenderThread:46329 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 20:57:18,248 DEBUG   SenderThread:46329 [sender.py:send():379] send: telemetry
+2023-09-01 20:57:18,248 DEBUG   SenderThread:46329 [sender.py:send():379] send: exit
+2023-09-01 20:57:18,248 INFO    SenderThread:46329 [sender.py:send_exit():584] handling exit code: 0
+2023-09-01 20:57:18,249 INFO    SenderThread:46329 [sender.py:send_exit():586] handling runtime: 0
+2023-09-01 20:57:18,249 INFO    SenderThread:46329 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 20:57:18,249 INFO    SenderThread:46329 [sender.py:send_exit():592] send defer
+2023-09-01 20:57:18,250 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 20:57:18,250 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,250 DEBUG   SenderThread:46329 [sender.py:send():379] send: telemetry
+2023-09-01 20:57:18,250 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-01 20:57:18,250 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,251 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,251 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,252 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,252 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,252 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,252 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,253 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-01 20:57:18,253 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 1
+2023-09-01 20:57:18,253 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,253 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-01 20:57:18,253 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,253 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-01 20:57:18,253 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 2
+2023-09-01 20:57:18,253 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,253 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-01 20:57:18,253 INFO    HandlerThread:46329 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-01 20:57:18,254 DEBUG   SystemMonitor:46329 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-01 20:57:18,254 DEBUG   SystemMonitor:46329 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-01 20:57:18,254 INFO    HandlerThread:46329 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-01 20:57:18,255 INFO    HandlerThread:46329 [interfaces.py:finish():202] Joined disk monitor
+2023-09-01 20:57:18,255 INFO    HandlerThread:46329 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-09-01 20:57:18,255 INFO    HandlerThread:46329 [interfaces.py:finish():202] Joined memory monitor
+2023-09-01 20:57:18,255 INFO    HandlerThread:46329 [interfaces.py:finish():202] Joined network monitor
+2023-09-01 20:57:18,256 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,256 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-01 20:57:18,256 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 3
+2023-09-01 20:57:18,256 DEBUG   SenderThread:46329 [sender.py:send():379] send: stats
+2023-09-01 20:57:18,256 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,256 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-01 20:57:18,257 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,257 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-01 20:57:18,257 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 4
+2023-09-01 20:57:18,257 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,257 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-01 20:57:18,257 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,257 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-01 20:57:18,257 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 5
+2023-09-01 20:57:18,257 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,257 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-01 20:57:18,258 DEBUG   SenderThread:46329 [sender.py:send():379] send: summary
+2023-09-01 20:57:18,259 INFO    SenderThread:46329 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-01 20:57:18,259 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,259 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-01 20:57:18,259 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 6
+2023-09-01 20:57:18,259 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:57:18,259 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-01 20:57:18,260 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:57:18,260 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-01 20:57:18,264 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:57:18,825 INFO    Thread-12 :46329 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/config.yaml
+2023-09-01 20:57:18,826 INFO    Thread-12 :46329 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/wandb-summary.json
+2023-09-01 20:57:19,541 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:24,562 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:29,585 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:34,603 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:39,623 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:44,639 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:49,661 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:51,770 INFO    SenderThread:46329 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.2_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/homebrew/lib/python3.11/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/requests/adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-09-01 20:57:54,673 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:57:59,695 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:03,629 WARNING FileStreamThread:46329 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/ftmoztl/ctr-prediction/khf8eyi7/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x10cc2a3d0>>, timeout=60.0), args: ('https://api.wandb.ai/files/ftmoztl/ctr-prediction/khf8eyi7/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-09-01 20:58:04,717 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:09,734 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:14,758 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:17,097 WARNING FileStreamThread:46329 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/ftmoztl/ctr-prediction/khf8eyi7/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x10cc2a3d0>>, timeout=60.0), args: ('https://api.wandb.ai/files/ftmoztl/ctr-prediction/khf8eyi7/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-09-01 20:58:19,770 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:24,790 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:29,812 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:34,831 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:39,854 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:44,871 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:49,887 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:50,358 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 7
+2023-09-01 20:58:50,359 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:58:50,359 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-01 20:58:50,359 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:58:50,359 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:58:50,359 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-01 20:58:50,359 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 8
+2023-09-01 20:58:50,359 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:58:50,359 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-01 20:58:50,359 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:58:50,359 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-01 20:58:50,359 INFO    SenderThread:46329 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-01 20:58:50,360 INFO    SenderThread:46329 [job_builder.py:build():297] run is notebook based run
+2023-09-01 20:58:50,360 INFO    SenderThread:46329 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-09-01 20:58:50,360 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 9
+2023-09-01 20:58:50,360 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:58:50,360 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-01 20:58:50,360 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:58:50,360 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-01 20:58:50,360 INFO    SenderThread:46329 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-01 20:58:51,168 INFO    SenderThread:46329 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/config.yaml
+2023-09-01 20:58:51,168 INFO    SenderThread:46329 [dir_watcher.py:finish():388] scan: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files
+2023-09-01 20:58:51,168 INFO    SenderThread:46329 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/requirements.txt requirements.txt
+2023-09-01 20:58:51,168 INFO    SenderThread:46329 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/config.yaml config.yaml
+2023-09-01 20:58:51,169 INFO    SenderThread:46329 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/wandb-summary.json wandb-summary.json
+2023-09-01 20:58:51,170 INFO    SenderThread:46329 [dir_watcher.py:finish():402] scan save: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/wandb-metadata.json wandb-metadata.json
+2023-09-01 20:58:51,170 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 10
+2023-09-01 20:58:51,170 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:58:51,170 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-01 20:58:51,172 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:58:51,172 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-01 20:58:51,172 INFO    SenderThread:46329 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-01 20:58:54,905 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:58:56,190 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:58:57,024 INFO    wandb-upload_2:46329 [upload_job.py:push():131] Uploaded file /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/wandb-summary.json
+2023-09-01 20:58:59,928 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:59:01,204 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:59:04,952 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:59:06,219 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:59:07,159 INFO    wandb-upload_0:46329 [upload_job.py:push():131] Uploaded file /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/requirements.txt
+2023-09-01 20:59:09,152 INFO    wandb-upload_1:46329 [upload_job.py:push():131] Uploaded file /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/files/config.yaml
+2023-09-01 20:59:09,358 INFO    Thread-11 (_thread_body):46329 [sender.py:transition_state():612] send defer: 11
+2023-09-01 20:59:09,358 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:59:09,358 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-01 20:59:09,359 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:59:09,359 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-01 20:59:09,359 INFO    SenderThread:46329 [file_pusher.py:join():164] waiting for file pusher
+2023-09-01 20:59:09,359 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 12
+2023-09-01 20:59:09,359 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:59:09,359 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-01 20:59:09,360 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:59:09,360 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-01 20:59:09,360 INFO    SenderThread:46329 [file_stream.py:finish():593] file stream finish called
+2023-09-01 20:59:09,975 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:59:14,992 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:59:15,424 INFO    SenderThread:46329 [file_stream.py:finish():597] file stream finish is done
+2023-09-01 20:59:15,425 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 13
+2023-09-01 20:59:15,425 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:59:15,426 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-01 20:59:15,426 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:59:15,426 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:59:15,426 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-01 20:59:15,427 INFO    SenderThread:46329 [sender.py:transition_state():612] send defer: 14
+2023-09-01 20:59:15,427 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: defer
+2023-09-01 20:59:15,427 DEBUG   SenderThread:46329 [sender.py:send():379] send: final
+2023-09-01 20:59:15,428 INFO    HandlerThread:46329 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-01 20:59:15,428 DEBUG   SenderThread:46329 [sender.py:send():379] send: footer
+2023-09-01 20:59:15,428 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: defer
+2023-09-01 20:59:15,428 INFO    SenderThread:46329 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-01 20:59:15,430 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-01 20:59:15,430 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: server_info
+2023-09-01 20:59:15,431 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: poll_exit
+2023-09-01 20:59:15,431 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-01 20:59:15,432 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: server_info
+2023-09-01 20:59:15,432 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-01 20:59:15,436 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: job_info
+2023-09-01 20:59:20,454 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-01 20:59:21,069 DEBUG   SenderThread:46329 [sender.py:send_request():406] send_request: job_info
+2023-09-01 20:59:21,069 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: status_report
+2023-09-01 20:59:21,071 DEBUG   HandlerThread:46329 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-01 20:59:21,071 INFO    HandlerThread:46329 [handler.py:finish():861] shutting down handler
+2023-09-01 20:59:22,074 INFO    SenderThread:46329 [sender.py:finish():1552] shutting down sender
+2023-09-01 20:59:22,075 INFO    SenderThread:46329 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-01 20:59:22,075 INFO    SenderThread:46329 [file_pusher.py:join():164] waiting for file pusher
+2023-09-01 20:59:22,075 INFO    WriterThread:46329 [datastore.py:close():294] close: /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230901_205251-khf8eyi7/run-khf8eyi7.wandb
