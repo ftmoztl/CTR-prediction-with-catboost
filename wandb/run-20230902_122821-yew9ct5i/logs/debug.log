@@ -1,0 +1,144 @@
+2023-09-02 12:28:21,639 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-02 12:28:21,639 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Configure stats pid to 69649
+2023-09-02 12:28:21,639 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/.config/wandb/settings
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Loading settings from /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/settings
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'ctr-prediction', 'entity': 'ftmoztl', 'root_dir': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction', 'run_id': 'yew9ct5i', 'sweep_param_path': '/Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/sweep-iph1pngh/config-yew9ct5i.yaml', 'sweep_id': 'iph1pngh'}
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:_log_setup():524] Logging user logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230902_122821-yew9ct5i/logs/debug.log
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/fatmaoztel/Desktop/Fatima Projects/CTR-prediction/CTR-prediction/wandb/run-20230902_122821-yew9ct5i/logs/debug-internal.log
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1420dea90>
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():564] calling init triggers
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():571] wandb.init called with sweep_config: {'depth': 9, 'iterations': 303, 'learning_rate': 0.04744377980734135, 'min_data_in_leaf': 56, 'rsm': 0.7021187098911418, 'subsample': 0.43616456236631673}
+config: {'_name': 'wandb.config'}
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():613] starting backend
+2023-09-02 12:28:21,640 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():617] setting up manager
+2023-09-02 12:28:21,642 INFO    Thread-12 (_run_job):69649 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-09-02 12:28:21,642 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():623] backend started and connected
+2023-09-02 12:28:21,646 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_config_callback():1282] config_cb None None {'depth': 9, 'iterations': 303, 'learning_rate': 0.04744377980734135, 'min_data_in_leaf': 56, 'rsm': 0.7021187098911418, 'subsample': 0.43616456236631673}
+2023-09-02 12:28:21,647 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-02 12:28:21,647 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-02 12:28:21,647 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():714] updated telemetry
+2023-09-02 12:28:21,657 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-02 12:28:22,291 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_on_init():2180] communicating current version
+2023-09-02 12:28:22,610 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_on_init():2189] got version response 
+2023-09-02 12:28:22,610 INFO    Thread-12 (_run_job):69649 [wandb_init.py:init():798] starting run threads in backend
+2023-09-02 12:28:22,724 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_finish():1894] finishing run ftmoztl/ctr-prediction/yew9ct5i
+2023-09-02 12:28:22,724 ERROR   Thread-12 (_run_job):69649 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-09-02 12:28:22,724 INFO    Thread-12 (_run_job):69649 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-02 12:28:22,724 INFO    Thread-12 (_run_job):69649 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-09-02 12:28:22,724 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-02 12:28:22,724 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_restore():2111] restore
+2023-09-02 12:28:22,724 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_restore():2117] restore done
+2023-09-02 12:28:22,725 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_restore():2111] restore
+2023-09-02 12:28:22,725 INFO    Thread-12 (_run_job):69649 [wandb_run.py:_restore():2117] restore done
+2023-09-02 12:28:23,727 ERROR   Thread-12 (_run_job):69649 [wandb_run.py:_atexit_cleanup():2149] Problem finishing run
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1164, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 838, in init
+    run._on_start()
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2198, in _on_start
+    self._header(
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 3085, in _header
+    Run._header_wandb_version_info(settings=settings, printer=printer)
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 3118, in _header_wandb_version_info
+    printer.display(
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/printer.py", line 247, in _display
+    self._display_fn_mapping(level)(text)
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/ipython.py", line 74, in display_html
+    return display(HTML(html))
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 481, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/zmqshell.py", line 102, in publish
+    self._flush_streams()
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/zmqshell.py", line 65, in _flush_streams
+    sys.stdout.flush()
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 559, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1172, in init
+    getcaller()
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 847, in getcaller
+    print("Problem at:", src, line, func)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 648, in write
+    self._schedule_flush()
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 545, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/agents/pyagent.py", line 298, in _run_job
+    self._function()
+  File "/var/folders/j9/scnjt0d57q3_lzqgdfj4j43r0000gn/T/ipykernel_69649/4102363144.py", line 31, in train
+    with wandb.init(config=wandb.config):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1202, in init
+    raise Error("An unexpected error occurred") from error_seen
+wandb.errors.Error: An unexpected error occurred
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2137, in _atexit_cleanup
+    self._on_finish()
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2372, in _on_finish
+    self._footer_exit_status_info(
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 3279, in _footer_exit_status_info
+    printer.display(f'{" ".join(info)}')
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/printer.py", line 247, in _display
+    self._display_fn_mapping(level)(text)
+  File "/opt/homebrew/lib/python3.11/site-packages/wandb/sdk/lib/ipython.py", line 74, in display_html
+    return display(HTML(html))
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/zmqshell.py", line 102, in publish
+    self._flush_streams()
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/zmqshell.py", line 65, in _flush_streams
+    sys.stdout.flush()
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 559, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/Users/fatmaoztel/Library/Python/3.11/lib/python/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
