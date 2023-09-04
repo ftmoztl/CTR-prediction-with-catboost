@@ -26,7 +26,7 @@ To install the dependencies to run the notebook, you can use Anaconda. Once you 
 [id/name]: https://github.com/ftmoztl/CTR-prediction/blob/main/model-development.ipynb
 
 # Proposed Resources
-
+ 
 
 # Contribution
 If you want to contribute please, send your pull request. All contributions are welcome!
