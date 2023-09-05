@@ -1,4 +1,4 @@
-# CTR-prediction
+# Click-Through Rate Prediction with CatBoost
 This study focuses on improving Click-Through Rate (CTR) prediction in online advertising and content recommendation systems. Accurate CTR prediction is vital for optimizing marketing efforts and enhancing user experiences. The Kaggle competition dataset is used for this purpose and the prediction model is developed by using the Catboost Algorithm. 
 
 CatBoost is a supervised machine learning technique employed within the Train Using AutoML tool. It relies on decision trees for tasks involving classification and regression. The name CatBoost signifies its primary attributes: the ability to handle categorical data (represented by "Cat") and its utilization of gradient boosting (signified by "Boost").
@@ -18,7 +18,7 @@ To install the dependencies to run the notebook, you can use Anaconda. Once you 
 
 `$ conda env create -f environment.yml`
 
-# Notebook 
+# Notebooks 
 [CTR-EDA-feature-engineering.ipynb][notebook1] notebook includes feature engineering steps for the dataset. 
 [model_development.ipynb][notebook2] includes all model development and hyperparameter tuning processes by using the Weight&Bias platform.
 
