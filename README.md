@@ -20,10 +20,11 @@ To install the dependencies to run the notebook, you can use Anaconda. Once you 
 `$ conda env create -f environment.yml`
 
 # Notebook 
-['CTR-EDA-feature-engineering.ipynb'][notebook1] notebook includes feature engineering steps for the dataset. ['model_development.ipynb'][id/name] includes all model development and hyperparameter tuning processes by using the Weight&Bias platform.
+[CTR-EDA-feature-engineering.ipynb][notebook1] notebook includes feature engineering steps for the dataset. 
+[model_development.ipynb][notebook2] includes all model development and hyperparameter tuning processes by using the Weight&Bias platform.
 
 [notebook1]: https://github.com/ftmoztl/CTR-prediction/blob/main/CTR-EDA-feature-engineering.ipynb
-[id/name]: https://github.com/ftmoztl/CTR-prediction/blob/main/model-development.ipynb
+[notebook2]: https://github.com/ftmoztl/CTR-prediction/blob/main/model-development.ipynb
 
 # Proposed Resources
  
